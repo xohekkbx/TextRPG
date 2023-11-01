@@ -1,19 +1,19 @@
 #pragma once
 
+#include "Vector.h"
+
 class Player
 {
 public:
 
-	float Attack()
-	{
-		std::cout << "PlayerÀÇ °ø°Ý!" << std::endl;
-		return atk_;
-	}
+	float Attack();
 
-	void Evasion()
-	{
+	void GetDmg();
 
-	}
+	void Evasion();
+
+	void Move();
+
 
 private:
 	float hp_ = 0.0f;
